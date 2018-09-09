@@ -24,7 +24,7 @@ ja:
       real_conversation_title: 本当のコミュニケーションのために
       within_reach_body: デベロッパーフレンドリーな API により実現された、iOS や Android、その他様々なプラットフォームのためのアプリでどこでも友人とやりとりできます。
       within_reach_title: いつでも身近に
-    generic_description: "%{domain} は、Mastodon インスタンスの一つです"
+    generic_description: "Puyotodon は、Mastodon インスタンスの一つです。ぷよぷよ関係のみならず、テトリス、パネポン、ドクマリ等についての交流にもお使いください！" 
     hosted_on: Mastodon hosted on %{domain}
     learn_more: もっと詳しく
     other_instances: 他のインスタンス
