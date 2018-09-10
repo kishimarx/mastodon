@@ -42,11 +42,10 @@
             .landing-page__short-description
               .row
                 .landing-page__logo
-                  = image_tag asset_pack_path('logo_transparent.svg'), alt: 'Puyotodon'
+                  = image_tag asset_pack_path('logo_transparent.svg'), alt: 'Puztodon'
 
                 %h1
-                  -# = @instance_presenter.site_title
-                  = 'Puyotodon'
+                  = @instance_presenter.site_title
                   %small!= t 'about.hosted_on', domain: content_tag(:span, site_hostname)
 
               %p= @instance_presenter.site_description.html_safe.presence || t('about.generic_description', domain: site_hostname)
@@ -75,11 +74,10 @@
             .landing-page__short-description
               .row
                 .landing-page__logo
-                  = image_tag asset_pack_path('logo_transparent.svg'), alt: 'Puyotodon'
+                  = image_tag asset_pack_path('logo_transparent.svg'), alt: 'Puztodon'
 
                 %h1
-                  -# = @instance_presenter.site_title
-                  = 'Puyotodon'
+                  = @instance_presenter.site_title
                   %small!= t 'about.hosted_on', domain: content_tag(:span, site_hostname)
 
               %p= @instance_presenter.site_description.html_safe.presence || t('about.generic_description', domain: site_hostname)
